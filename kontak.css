@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header {
+    background: #daffbf;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #daffbf 3px solid;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    color: #000000;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    background: #e9e9e9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: #000000 5px solid;
+}
+
+.contact-section ul li strong {
+    color: #333;
+}
+
+.contact-section a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    background-color: #daffbf;
+    color: #000000;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c7e8a9; /* Warna sedikit lebih gelap saat di-hover */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #daffbf;
+    color: #000000;
+    margin-top: 20px;
+}
